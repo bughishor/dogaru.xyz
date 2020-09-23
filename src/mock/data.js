@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Bogdan Dogaru - Python Web Developer with many hidden talents',
+  title: 'Bogdan Dogaru - Python Web Developer - Open for new projects or roles',
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Python & Front End Developer based in West Sussex. Looking for roles in the area or fully remote. Permanent, part time or contracts.', // e.g: Welcome to my website
+  description: 'Python & Front End Developer based in Crawley, West Sussex. Currently looking for new projects nationwide or local. Also open to permanent, temporary or contract roles.', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -42,6 +42,15 @@ export const projectsData = [
     info: 'Brand building from scratch: logo, website development including custom plugins, clothing products design, social media management, advertising video and photo editing.',
     info2: 'Technologies: Wordpress, Woocommerce, JavaScript, CSS (Sass), PHP, Photoshop',
     url: 'https://aspazia.co.uk',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'bogdan-dogaru-project-score.footstats.xyz.jpg',
+    title: 'ScoreBoardXYZ',
+    info: 'PWA - WebApp to generate an image of a scoreboard to be used by grassroots football clubs. Fully customisable including club logo, matchday photo and colours.',
+    info2: 'Technologies: Vanilla Javascript, CSS (Sass), PWA',
+    url: 'https://score.footstats.xyz',
     repo: '', // if no repo, the button will not show up
   },
   {
