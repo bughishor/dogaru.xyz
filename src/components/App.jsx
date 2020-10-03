@@ -5,6 +5,7 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import FooterLogo from './FooterLogo/FooterLogo'
 import Footer from './Footer/Footer';
+import FacebookChat from './FacebookChat/FacebookChat'
 
 import { PortfolioProvider } from '../context/context';
 
@@ -33,6 +34,7 @@ function App() {
       <Contact />
       <FooterLogo />
       <Footer />
+      <FacebookChat />
     </PortfolioProvider>
   );
 }
